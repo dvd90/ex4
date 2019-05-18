@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="includes/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+    <title>David Sellam</title>
+  </head>
+  <body>
+    <div class="main" id="form-php">
+      <nav class="navbar fixed-top navbar-light bg-light">
+          <a href="login.html"><button class="btn btn-outline-primary" type="button">Login</button></a>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <h2 class="form-title">My wonderful Form</h2>
+            <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="GET">
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault01">Full Name</label>
+                  <input type="text" class="form-control" id="validationDefault01" placeholder="Full Name" value="David Sellam" name="fullName" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefaultEmail">E-Mail</label>
+                  <div class="input-group">
+                    <input type="email" class="form-control" id="validationDefaultEmail" placeholder="E-Mail" name="mail" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefaultPhone">Phone Number</label>
+                  <input type="tel" class="form-control" id="validationDefaultPhone" placeholder="Phone Number" value="0542764061" name="phone" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="inputPassword5">Password</label>
+                  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" name="pass" required>
+                  <small id="passwordHelpBlock" class="form-text text-muted">
+                  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </small>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validationDefault02">Website</label>
+                  <input type="url" class="form-control" id="validationDefault02" placeholder="Website" value="http://www.yourwebsite.com" name="website" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault06">Cup of Coffee</label>
+                  <input type="number" class="form-control" id="validationDefault06" placeholder="Cup of Coffee" name="coffee" min="1" value="1">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="customRange2">Temperature</label>
+                  <input type="range" class="custom-range" min="0" max="100" id="customRange2" name="temper">
+                  <label>0º</label>
+                  <label class="label-temp-right">100º</label>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validationDefault03">Address</label>
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="Address" value="13 rue de la paix, Paris" name="address" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-4 mb-4">
+                  <label for="validationDefaultAge">Age</label>
+                  <input type="number" class="form-control" id="validationDefaultAge" placeholder="18" name="age" required>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <label for="validationDefault04">Interests</label>
+                  <select class="custom-select" name="interests[]" multiple>
+                    <option selected>Choose</option>
+                    <option value="1">Racing</option>
+                    <option value="2">Sport</option>
+                    <option value="3">Coding</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <label for="validationDefault05">Gender</label>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" value="Male" for="customRadio1">Male</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="gender" class="custom-control-input">
+                    <label class="custom-control-label" value="Female" for="customRadio2">Female</label>
+                  </div>
+                </div>
+<button type="submit" class="btn btn-outline-primary btn-lg btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </html>
