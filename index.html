@@ -7,14 +7,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
     <title>David Sellam</title>
   </head>
-  <body>
+  <body id="form-page">
     <div class="main" id="form-php">
       <nav class="navbar fixed-top navbar-light bg-light">
-          <a href="login.html"><button class="btn btn-outline-primary" type="button">Login</button></a>
+        <a href="login.html"><button class="btn btn-outline-primary" type="button">Login</button></a>
       </nav>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-6">
             <h2 class="form-title">My wonderful Form</h2>
             <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="GET">
               <div class="form-row">
@@ -75,9 +75,9 @@
                   <label for="validationDefault04">Interests</label>
                   <select class="custom-select" name="interests[]" multiple>
                     <option selected>Choose</option>
-                    <option value="1">Racing</option>
-                    <option value="2">Sport</option>
-                    <option value="3">Coding</option>
+                    <option value="Racing">Racing</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Coding">Coding</option>
                   </select>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -91,7 +91,7 @@
                     <label class="custom-control-label" value="Female" for="customRadio2">Female</label>
                   </div>
                 </div>
-<button type="submit" class="btn btn-outline-primary btn-lg btn-block">Submit</button>
+                <button type="submit" class="btn btn-outline-primary btn-lg btn-block">Submit</button>
               </form>
             </div>
           </div>

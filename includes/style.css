@@ -1,5 +1,9 @@
 * {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#form-page {
 }
 
 .container {
@@ -9,9 +13,12 @@
 
 .form-title {
   text-align: center;
+  margin-top: 10vh;
   margin-bottom: 4vh;
 }
 
 .label-temp-right {
   float: right;
 }
+
+
